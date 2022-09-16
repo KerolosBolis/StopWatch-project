@@ -1,0 +1,4442 @@
+21:52:04 **** Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     350 bytes (2.1% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:53:31 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     350 bytes (2.1% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:55:17 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     364 bytes (2.2% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:00:46 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Kerolos_Bolis_Mini_Project_2.c: In function 'main':
+../Kerolos_Bolis_Mini_Project_2.c:31: warning: suggest parentheses around comparison in operand of |
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     452 bytes (2.8% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:01:16 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     412 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:02:14 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     412 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:07:12 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     420 bytes (2.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:04:49 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     410 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:07:43 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3546 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:08:16 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3546 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:08:58 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3544 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:09:58 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3786 bytes (23.1% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:11:55 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3540 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:18:32 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3540 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:18:37 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3540 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:18:40 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Kerolos_Bolis_Mini_Project_2.c: In function 'TIMER1_Init':
+../Kerolos_Bolis_Mini_Project_2.c:20: error: 'OCIbE1A' undeclared (first use in this function)
+../Kerolos_Bolis_Mini_Project_2.c:20: error: (Each undeclared identifier is reported only once
+../Kerolos_Bolis_Mini_Project_2.c:20: error: for each function it appears in.)
+make: *** [Kerolos_Bolis_Mini_Project_2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:18:44 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3540 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:19:22 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3542 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:19:53 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     420 bytes (2.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:41:26 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     420 bytes (2.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:42:06 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     420 bytes (2.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:44:26 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3542 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:45:08 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3784 bytes (23.1% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:46:34 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3540 bytes (21.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:53:53 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3560 bytes (21.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:54:47 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3558 bytes (21.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:04:45 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3560 bytes (21.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:06:14 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3580 bytes (21.9% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:08:47 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3574 bytes (21.8% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:11:40 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3580 bytes (21.9% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:14:33 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Kerolos_Bolis_Mini_Project_2.c:49: error: expected identifier or '(' before '}' token
+make: *** [Kerolos_Bolis_Mini_Project_2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:14:46 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     426 bytes (2.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:15:30 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     426 bytes (2.6% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:16:53 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     354 bytes (2.2% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:17:04 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     358 bytes (2.2% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:18:13 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     358 bytes (2.2% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:43:58 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     312 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:45:44 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     312 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:46:50 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     312 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:46:53 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     312 bytes (1.9% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:47:32 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     320 bytes (2.0% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:53:25 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3776 bytes (23.0% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:53:45 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    3776 bytes (23.0% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:56:58 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4286 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:57:17 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4286 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:02:20 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4286 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:02:56 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4286 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:07:25 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4310 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:07:43 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4310 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:08:22 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4310 bytes (26.3% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:09:09 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4286 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:09:52 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4286 bytes (26.2% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:10:57 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4970 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:12:55 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4982 bytes (30.4% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:16:02 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4984 bytes (30.4% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (1.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:21:01 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4978 bytes (30.4% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:24:35 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4978 bytes (30.4% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:24:54 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4978 bytes (30.4% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:27:17 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4978 bytes (30.4% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:28:05 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4972 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:34:57 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:53:38 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Building file: ../Kerolos_Bolis_Mini_Project_2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Kerolos_Bolis_Mini_Project_2.d" -MT"Kerolos_Bolis_Mini_Project_2.o" -c -o "Kerolos_Bolis_Mini_Project_2.o" "../Kerolos_Bolis_Mini_Project_2.c"
+In file included from ../Kerolos_Bolis_Mini_Project_2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Kerolos_Bolis_Mini_Project_2.c
+ 
+Building target: Kerolos_Bolis_Mini_Project_2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Kerolos_Bolis_Mini_Project_2.map -mmcu=atmega16 -o "Kerolos_Bolis_Mini_Project_2.elf"  ./Kerolos_Bolis_Mini_Project_2.o   
+Finished building target: Kerolos_Bolis_Mini_Project_2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Kerolos_Bolis_Mini_Project_2.elf  >"Kerolos_Bolis_Mini_Project_2.lss"
+Finished building: Kerolos_Bolis_Mini_Project_2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:53:39 **** Build of configuration Debug for project Mini Project2 ****
+make all 
+Building file: ../Mini_Project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Mini_Project2.d" -MT"Mini_Project2.o" -c -o "Mini_Project2.o" "../Mini_Project2.c"
+In file included from ../Mini_Project2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Mini_Project2.c
+ 
+Building target: Mini Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Mini Project2.map -mmcu=atmega16 -o "Mini Project2.elf"  ./Mini_Project2.o   
+avr-gcc.exe: Project2.map: No such file or directory
+make: *** [Mini Project2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:54:01 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:54:01 **** Incremental Build of configuration Debug for project Mini Project2 ****
+make all 
+Building target: Mini Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Mini Project2.map -mmcu=atmega16 -o "Mini Project2.elf"  ./Mini_Project2.o   
+avr-gcc.exe: Project2.map: No such file or directory
+make: *** [Mini Project2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:55:32 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:55:32 **** Clean-only build of configuration Debug for project Mini_Project2 ****
+make clean 
+rm -rf  ./Mini_Project2.o  sizedummy  Mini\ Project2.lss  ./Mini_Project2.d  "Mini Project2.elf"
+ 
+15:55:32 **** Build of configuration Debug for project Mini_Project2 ****
+make all 
+Building file: ../Mini_Project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Mini_Project2.d" -MT"Mini_Project2.o" -c -o "Mini_Project2.o" "../Mini_Project2.c"
+In file included from ../Mini_Project2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Mini_Project2.c
+ 
+Building target: Mini_Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Mini_Project2.map -mmcu=atmega16 -o "Mini_Project2.elf"  ./Mini_Project2.o   
+Finished building target: Mini_Project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Mini_Project2.elf  >"Mini_Project2.lss"
+Finished building: Mini_Project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:55:50 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:55:51 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:56:55 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:56:55 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:56:55 **** Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:57:49 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:57:49 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:57:49 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5106 bytes (31.2% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:58:22 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:58:22 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:58:22 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5120 bytes (31.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:59:33 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:59:34 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:59:34 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5084 bytes (31.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:01:00 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:01:00 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:01:01 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5114 bytes (31.2% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:01:34 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:01:35 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:01:35 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5114 bytes (31.2% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:02:30 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:02:30 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:02:30 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5114 bytes (31.2% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:02:54 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:02:54 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:02:54 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5078 bytes (31.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:04:00 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:04:01 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:04:01 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5078 bytes (31.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:16:42 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:16:43 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:16:43 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5078 bytes (31.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:18:39 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:18:39 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:18:39 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5078 bytes (31.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:24:54 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:24:55 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:24:55 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5084 bytes (31.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:30:29 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:30:29 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:30:30 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5088 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:44:43 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:44:43 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:44:44 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5076 bytes (31.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:45:49 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:45:49 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:45:50 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5076 bytes (31.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:48:42 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:48:42 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:48:42 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4992 bytes (30.5% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:51:10 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:51:10 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:51:11 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4998 bytes (30.5% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:55:17 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:55:17 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:55:17 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5178 bytes (31.6% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:57:02 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:57:02 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:57:03 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5164 bytes (31.5% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:24:11 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:24:12 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:24:12 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5178 bytes (31.6% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:24:17 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:24:17 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:24:17 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5178 bytes (31.6% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:26:27 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:26:27 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:26:27 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4998 bytes (30.5% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:34:07 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:34:07 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:34:08 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4988 bytes (30.4% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:34:46 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:34:46 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:34:47 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4988 bytes (30.4% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:43:47 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:43:47 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:43:47 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4998 bytes (30.5% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:02:09 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:02:09 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:02:09 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4998 bytes (30.5% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:01:02 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:01:04 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:01:04 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5436 bytes (33.2% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:02:10 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:02:10 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:02:10 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5436 bytes (33.2% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:15:47 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:15:47 **** Incremental Build of configuration Debug for project Mini_Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Mini_Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5102 bytes (31.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:15:47 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5436 bytes (33.2% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:18:57 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5418 bytes (33.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:19:33 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5418 bytes (33.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:20:17 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5436 bytes (33.2% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:49:30 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5394 bytes (32.9% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:51:21 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5436 bytes (33.2% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:54:39 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5352 bytes (32.7% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:56:11 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5324 bytes (32.5% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:00:15 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5352 bytes (32.7% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:01:29 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5352 bytes (32.7% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:04:37 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5376 bytes (32.8% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:05:39 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5364 bytes (32.7% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:06:48 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5352 bytes (32.7% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:09:26 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5370 bytes (32.8% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:24:03 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5370 bytes (32.8% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

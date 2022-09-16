@@ -1,0 +1,20 @@
+21:15:47 **** Incremental Build of configuration Debug for project Kerolos_Bolis_Mini_Project_2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Kerolos_Bolis_Mini_Project_2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4964 bytes (30.3% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+21:15:47 Build Finished. 0 errors, 0 warnings. (took 152ms)
+

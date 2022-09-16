@@ -1,0 +1,11 @@
+15:54:01 **** Incremental Build of configuration Debug for project Mini Project2 ****
+make all 
+Building target: Mini Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Mini Project2.map -mmcu=atmega16 -o "Mini Project2.elf"  ./Mini_Project2.o   
+avr-gcc.exe: Project2.map: No such file or directory
+make: *** [Mini Project2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+15:54:01 Build Failed. 1 errors, 0 warnings. (took 157ms)
+

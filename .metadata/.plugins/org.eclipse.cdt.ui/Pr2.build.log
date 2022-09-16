@@ -1,0 +1,36 @@
+22:24:03 **** Incremental Build of configuration Debug for project Pr2 ****
+make all 
+Building file: ../Pr2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Pr2.d" -MT"Pr2.o" -c -o "Pr2.o" "../Pr2.c"
+In file included from ../Pr2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Pr2.c
+ 
+Building target: Pr2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Pr2.map -mmcu=atmega16 -o "Pr2.elf"  ./Pr2.o   
+Finished building target: Pr2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Pr2.elf  >"Pr2.lss"
+Finished building: Pr2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Pr2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5370 bytes (32.8% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+22:24:04 Build Finished. 0 errors, 1 warnings. (took 1s.14ms)
+
